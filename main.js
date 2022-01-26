@@ -12,3 +12,25 @@ console.log(totalPriceAdd, totalPriceSub, totalPriceMul, totalPriceDiv, totalPri
 // console.log(totalPriceMul)
 // console.log(totalPriceDiv)
 // console.log(totalPriceEx)
+
+//============================= Mathematical operation shorthand
+
+var price1 = 100;
+// var not use for this item
+// it's shorthand
+price1 =+ 200;
+var price2 = 50;
+// var not use for this item
+// it's shorthand
+price2 -= 10;
+var sum = price1+price2
+console.log(sum)
+
+
+var age =19;
+// increment
+age++;
+age += 1;
+age--;
+console.log(age)
+
