@@ -22,6 +22,6 @@ function numbers(num){
     }
 }
 
-var pass1 = "A";
-pass1 = pass1.toLowerCase();
-numbers(pass1);
+var pass = "B"
+pass = pass.toLowerCase();
+numbers(pass);
