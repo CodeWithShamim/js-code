@@ -12,7 +12,7 @@
 /*
 for (i=1; i<=30; i++){
     let myNumber = 21.04;
-    let result = (Math.random()*5)+1;
+    let result = (Math.random()*11)+10;
     result = Math.floor(result);
     console.log(result);
 };
@@ -26,5 +26,8 @@ for (i=1; i<=30; i++){
 // const result = Math.min(2, 3, 54, 1);
 // console.log(result);
 
-const result = Math.max(2, 3, 54, 1);
+// const result = Math.max(2, 3, 54, 1);
+// console.log(result);
+
+const result = Math.sqrt(49);
 console.log(result);
