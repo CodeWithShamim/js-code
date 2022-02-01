@@ -1,8 +1,8 @@
 var a, b, temp;
 a = 10;
 b = 20;
-console.log("Before a result is: "+a)
-console.log("Before b result is: "+b)
+// console.log("Before a result is: "+a)
+// console.log("Before b result is: "+b)
 // temp = a;
 // a = b;
 // b = temp;
