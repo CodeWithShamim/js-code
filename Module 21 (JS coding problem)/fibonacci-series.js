@@ -10,14 +10,21 @@
 nth = (n-1)th + (n-2)th
 */
 
-function isFibonacci(){
+function isFibonacci(num){
+    if (typeof(num) != "number"){
+        return "Sorry! Only allow number";
+    }
+
+    else if(num<2){
+        return "Please input positive number greather than 2"
+    }
     const fibo = [0, 1];
-    for (i=2; i<=20; i++){  
+    for (i=2; i<=num; i++){  
         fibo[i] = fibo[i-1] + fibo[i-2];  
     };
 
     return fibo;
 }
 
-let result = isFibonacci();
+let result = isFibonacci(20);
 console.log(result);
